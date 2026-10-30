@@ -6,6 +6,20 @@ Dark mode follows the system preference until you use the moon button. The selec
 
 ## Preview locally
 
+With `just` installed:
+
+```sh
+cd ~/10_Projects/website
+just install       # First time only
+just deploy        # Local preview at http://127.0.0.1:4000
+# Or: just serve 4001, if port 4000 is already occupied
+just build         # Generate static HTML without starting a server
+```
+
+Stop the preview with Ctrl+C. `just deploy` is local only; GitHub publishing remains handled by Actions.
+
+### Without just
+
 Requires Ruby, Bundler, and a C/C++ build toolchain for gem dependencies.
 
 ```sh

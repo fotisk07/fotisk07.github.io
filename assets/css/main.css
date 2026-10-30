@@ -96,6 +96,7 @@ h2 { font-size: 21px; line-height: 1.4; }
 .timeline-content h2 { font-size: 22px; margin: 0 0 8px; font-weight: 400; letter-spacing: -.3px; }
 .timeline-content h2 a { color: var(--ink); }
 .timeline-content p { font-size: 17px; line-height: 1.65; margin: 0; color: var(--body-text); }
+.timeline-content p + p { margin-top: 14px; }
 .site-footer { display: flex; flex-wrap: wrap; gap: 24px; margin: 46px 0 44px; font-family: system-ui, sans-serif; font-size: 13px; }
 .muted { color: var(--muted); }
 .post-list { list-style: none; padding: 0; }

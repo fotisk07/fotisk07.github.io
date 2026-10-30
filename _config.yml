@@ -14,6 +14,7 @@ markdown: kramdown
 highlighter: rouge
 exclude:
   - README.md
+  - justfile
   - Gemfile
   - Gemfile.lock
   - vendor
