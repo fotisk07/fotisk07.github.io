@@ -4,8 +4,7 @@ Jekyll + GitHub Pages.
 
 ```sh
 just install  # Install dependencies
-just deploy   # Preview at localhost:4000
-just build    # Build into _site/
+just dev      # Preview at localhost:4000
 ```
 
 ## Edit
