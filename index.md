@@ -3,8 +3,10 @@ layout: default
 ---
 
 <div class="intro" markdown="1">
-I'm a Forward Deployed Engineer at BCG X in Paris. My background is in machine learning; I've worked on computer vision, multimodal models, and making inference faster.
+I’m a Forward Deployed Engineer at BCG X in Paris, with a background in machine learning from CentraleSupélec and MVA. I enjoy understanding how things work, building things from scratch, and making them work better.
 </div>
+
+<hr class="bio-divider">
 
 <section class="path" aria-label="Experience and education">
   <ol class="timeline">
