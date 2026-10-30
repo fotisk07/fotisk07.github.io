@@ -1,0 +1,31 @@
+title: Fotis Kapotos
+description: Forward Deployed Engineer at BCG X in Paris.
+url: "" # Set to https://YOUR_USERNAME.github.io before publishing
+baseurl: "" # For a project site, set to /REPOSITORY_NAME
+lang: en
+
+# Add your actual addresses to show these links.
+email: ""
+github_url: ""
+linkedin_url: https://www.linkedin.com/in/fotis-kapotos-07/
+
+permalink: /blog/:title/
+markdown: kramdown
+highlighter: rouge
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - scripts
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post

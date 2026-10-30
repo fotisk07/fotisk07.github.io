@@ -1,0 +1,25 @@
+# Newest first. Descriptions support Markdown; logos live in assets/images/.
+- dates: "2026–present"
+  name: BCG X
+  url: https://www.bcg.com/x
+  logo: /assets/images/bcg.png
+  description: >-
+    Forward Deployed Engineer in Paris.
+
+- dates: "2026"
+  name: ENS Paris-Saclay
+  url: https://www.master-mva.com/
+  logo: /assets/images/ens.png
+  description: >-
+    Master 2 in Mathématiques, Vision, Apprentissage (MVA).
+    Along the way, I interned at BNP Paribas, working on reducing inference
+    time for document-processing models.
+
+- dates: "2022–2026"
+  name: CentraleSupélec
+  url: https://www.centralesupelec.fr/
+  logo: /assets/images/centralesupelec.png
+  description: >-
+    Engineering studies. I squeezed in two internships: at AIT, working on
+    self- and semi-supervised image segmentation, and at Société Générale,
+    red-teaming multimodal models.
