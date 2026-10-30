@@ -1,6 +1,8 @@
 # Fotis Kapotos — personal website
 
-Small Jekyll site. Static HTML and CSS, no browser JavaScript, no external fonts or theme.
+Small Jekyll site. Static HTML and CSS, a tiny theme-toggle script, no external fonts or theme.
+
+Dark mode follows the system preference until you use the moon button. The selection is saved locally. Colors live at the top of `assets/css/main.css`; behavior lives in `assets/js/theme.js`.
 
 ## Preview locally
 

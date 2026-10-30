@@ -19,6 +19,7 @@
   name: CentraleSupélec
   url: https://www.centralesupelec.fr/
   logo: /assets/images/centralesupelec.png
+  logo_dark: /assets/images/centralesupelec-dark.png
   description: >-
     Engineering degree, majoring in data science. I squeezed in two internships:
     at the [Austrian Institute of Technology](https://www.ait.ac.at/en/), working
