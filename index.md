@@ -17,7 +17,7 @@ I’m a Forward Deployed Engineer at BCG X in Paris, with a background in machin
         <img src="{{ entry.logo | relative_url }}" alt="" width="160" height="100"{% if entry.logo_dark %} data-light-src="{{ entry.logo | relative_url }}" data-dark-src="{{ entry.logo_dark | relative_url }}"{% endif %}>
       </div>
       <div class="timeline-content">
-        <h2><a href="{{ entry.url | escape }}">{{ entry.name | escape }}</a></h2>
+        <h2>{{ entry.name | escape }}</h2>
         {{ entry.description | markdownify }}
       </div>
     </li>
