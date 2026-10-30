@@ -6,8 +6,7 @@ layout: default
 I'm a Forward Deployed Engineer at BCG X in Paris. My background is in machine learning; I've worked on computer vision, multimodal models, and making inference faster.
 </div>
 
-<section class="path" aria-labelledby="path-title">
-  <h1 id="path-title">My path</h1>
+<section class="path" aria-label="Experience and education">
   <ol class="timeline">
     {% for entry in site.data.timeline %}
     <li class="timeline-entry">
