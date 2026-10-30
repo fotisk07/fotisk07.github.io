@@ -2,7 +2,7 @@
 - dates: "2026–present"
   name: BCG X
   url: https://www.bcg.com/x
-  logo: /assets/images/bcg.png
+  logo: /assets/images/bcg.svg
   description: >-
     Forward Deployed Engineer in Paris.
 
@@ -12,14 +12,15 @@
   logo: /assets/images/ens.png
   description: >-
     Master 2 in Mathématiques, Vision, Apprentissage (MVA).
-    Along the way, I interned at BNP Paribas, working on reducing inference
-    time for document-processing models.
+    Along the way, I interned at BNP Paribas Cardif, speeding up
+    transformer-based document extraction models.
 
 - dates: "2022–2026"
   name: CentraleSupélec
   url: https://www.centralesupelec.fr/
   logo: /assets/images/centralesupelec.png
   description: >-
-    Engineering studies. I squeezed in two internships: at AIT, working on
-    self- and semi-supervised image segmentation, and at Société Générale,
+    Engineering degree, majoring in data science. I squeezed in two internships:
+    at the [Austrian Institute of Technology](https://www.ait.ac.at/en/), working
+    on self- and semi-supervised image segmentation, and at Société Générale,
     red-teaming multimodal models.

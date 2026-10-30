@@ -5,8 +5,8 @@ baseurl: "" # For a project site, set to /REPOSITORY_NAME
 lang: en
 
 # Add your actual addresses to show these links.
-email: ""
-github_url: ""
+email: "fotiskapotos@gmail.com"
+github_url: "https://github.com/fotisk07"
 linkedin_url: https://www.linkedin.com/in/fotis-kapotos-07/
 
 permalink: /blog/:title/

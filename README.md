@@ -7,7 +7,7 @@ Small Jekyll site. Static HTML and CSS, no browser JavaScript, no external fonts
 Requires Ruby, Bundler, and a C/C++ build toolchain for gem dependencies.
 
 ```sh
-cd ~/10_projects/website
+cd ~/10_Projects/website
 # If bundle isn't installed:
 gem install --user-install bundler
 # Add the executable directory printed by RubyGems to your PATH if necessary.
@@ -33,7 +33,7 @@ Open http://127.0.0.1:4000. Changes rebuild automatically. Restart the server af
 
 Timeline descriptions accept Markdown. Keep YAML indentation consistent. Entries appear in the order written.
 
-Email and GitHub links are hidden until their values are filled in. AIT is deliberately not linked until its full identity is confirmed. The organization icons are downloaded site favicons used as first-draft logos; replace them with official logo assets if preferred. No third-party requests occur when a visitor opens the site.
+Email and GitHub links come from the CV. Empty contact settings hide their links. School logos come from `~/10_Projects/inference/internship-report/logos/`; the ENS image is cropped to omit the university co-branding. The BCG X SVG comes from BCG's website. No third-party requests occur when a visitor opens the site.
 
 ## Write a post
 
