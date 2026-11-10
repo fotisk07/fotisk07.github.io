@@ -1,0 +1,38 @@
+base_url = "https://fotisk07.github.io"
+title = "Fotis Kapotos"
+description = "Forward Deployed Engineer at BCG X in Paris."
+default_language = "en"
+theme = "serene"
+compile_sass = true
+build_search_index = false
+generate_feeds = false
+feed_filenames = ["atom.xml"]
+
+[markdown.highlighting]
+style = "class"
+light_theme = "github-light"
+dark_theme = "github-dark"
+
+[extra]
+name = "Fotis Kapotos"
+nav = [
+  { name = "About", path = "/about/" },
+  { name = "Blog", path = "/blog/" },
+]
+links = [
+  { name = "Email", icon = "email", url = "mailto:fotiskapotos@proton.me" },
+  { name = "GitHub", icon = "github", url = "https://github.com/fotisk07" },
+  { name = "LinkedIn", icon = "linkedin", url = "https://www.linkedin.com/in/fotis-kapotos-07/" },
+]
+blog_section_path = "/blog"
+color_scheme = "auto"
+back_link_text = "Back"
+footer_copyright = "Fotis Kapotos"
+footer_credits = false
+not_found_error_text = "Page not found"
+not_found_recover_text = "Back to home"
+date_format = "%b %-d, %Y"
+toc = false
+code_copy = false
+comment = false
+reaction = false
