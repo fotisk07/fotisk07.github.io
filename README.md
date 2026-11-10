@@ -1,26 +1,34 @@
 # Personal website
 
-[Zola](https://www.getzola.org/) + [Serene](https://github.com/isunjn/serene).
+[Zola](https://www.getzola.org/) + [Serene](https://github.com/isunjn/serene), deployed to GitHub Pages.
 
-## Preview
+## Local development
 
-Install Zola **0.23.6** ([installation guide](https://www.getzola.org/documentation/getting-started/installation/)), then:
+Install **Zola 0.23.6** and **just**, then run:
 
 ```sh
-git submodule update --init --recursive
-zola serve
+just install  # First time after cloning: download the pinned Serene theme
+just dev      # Preview at http://127.0.0.1:1111
 ```
 
-Open http://127.0.0.1:1111. No Ruby, Node, or package manager needed.
+Other commands:
+
+```sh
+just          # List available commands
+just build    # Build the site into public/
+```
+
+Serene is stored as a Git submodule (a reference to a specific version of the theme's repository). `just install` handles fetching it; no separate Git setup commands are needed.
 
 ## Edit
 
-- `content/_index.md` — homepage bio
+- `content/_index.md` — homepage and recent articles settings
+- `content/about/_index.md` — About page
 - `content/blog/*.md` — blog posts
-- `zola.toml` — site settings and contact links
-- `templates/_head_extend.html` — small colour overrides; everything else uses Serene
+- `zola.toml` — site settings, navigation, and contact links
+- `templates/_head_extend.html` — colour and name typography overrides
 
-To publish a post, create `content/blog/my-post.md`:
+To add a post, create `content/blog/my-post.md`:
 
 ```markdown
 +++
@@ -31,11 +39,9 @@ date = 2026-10-30
 Write in Markdown here.
 ```
 
-The filename becomes the URL: `/blog/my-post/`. Add `draft = true` to the metadata to keep a post unpublished; use `zola serve --drafts` to preview drafts.
+The filename becomes the URL: `/blog/my-post/`. Add `draft = true` to the metadata to keep a post unpublished.
 
 ## Publish
 
-Push to `main`. GitHub Actions builds the site and deploys `public/` to GitHub Pages.
-In repository settings, set **Pages → Source → GitHub Actions**.
-
-The theme is a pinned Git submodule. When cloning, use `git clone --recurse-submodules` or run the submodule command above.
+Commit and push to `main`. GitHub Actions builds and deploys the site automatically.
+GitHub Pages must have **Source → GitHub Actions** selected in the repository settings.
